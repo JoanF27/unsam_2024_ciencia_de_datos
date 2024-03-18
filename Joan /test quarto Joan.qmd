@@ -1,0 +1,47 @@
+---
+title: "Presentacion 2"
+author: "Joan Fiszlejder"
+format: html
+editor: visual
+---
+
+```{r}
+print (25+2)
+```
+
+```{r}
+x <- 2
+y <- 7
+
+print (x-y)
+
+```
+
+```{r}
+print ("estoy intentando hacer bien esto")
+```
+
+# Tarea: hacer un data.frame
+
+```{r}
+nombres <- c("Belen", "Cami", "eve", "Gerónimo", "Joan", "Joaquin", "Lautaro", "Mercedes", "Michelle")
+
+edades <- c(26, 31, 24, 25, 21, 42, 35, 22, 27)
+
+ocupación <- c("biologa","dentista", "correcaminos", "explorador", "marinero", "sexólogo", "psiquiatra", "futbolista", "dentista")
+
+print (nombres)
+print (edades)
+print (ocupación)
+```
+
+Tabla
+
+```{r}
+my_data <- data.frame (nombres, edades)
+nombres_con_edad <- data.frame(nombres,edades, ocupación)
+```
+
+```{r}
+print (nombres_con_edad)
+```
