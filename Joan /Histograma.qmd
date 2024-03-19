@@ -1,0 +1,23 @@
+---
+title: "histograma Joan"
+author: "Joan Fiszlejder"
+format: html
+editor: visual
+---
+
+## Tarea
+
+Voy a hacer un histograma con los datos de nombres y edades de mis compañeros
+
+```{r}
+nombres <- c("Belen", "Cami", "eve", "Gerónimo", "Joan", "Joaquin", "Lautaro", "Mercedes", "Michelle")
+edades <- c(21, 31, 24, 25, 21, 42, 35, 22, 20)
+
+my_data <- data.frame(nombres,edades)
+nombres_con_edad <- data.frame(nombres,edades)
+```
+
+```{r}
+hist (my_data$edades)
+
+```
